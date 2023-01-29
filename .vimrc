@@ -38,7 +38,7 @@ if has("gui_running")
   " colorscheme solarized
   colorscheme OceanicNext
 else
-  colorscheme codedark
+  silent! colorscheme codedark
 endif
 nnoremap <C-t> :TagbarToggle<CR>
 set path+=**
